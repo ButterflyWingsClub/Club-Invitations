@@ -108,7 +108,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hello dear! 🌸 We’d be happy to welcome you to our club. You are active, strong, and would be a wonderful addition to our team. ➊ 💖 Donations are completely voluntary, and we are very flexible about them. ➋ ⚔️ We encourage members to improve their skills at their own pace and to participate in club battles, which we plan to hold on a fixed day every week. ➌ 👑 We currently have a Vice President position open and are looking to recruit committed members (including you, if you’re interested) who are willing to share responsibility in decision-making for club policies and implementation. ➍ 🤝 We truly value every member’s opinion. All members have an equal say in how the club operates, and decisions are made with collective consent, regardless of level or skill. ➎ 👭 Our current goal is to build a strong club made up of strong ladies with a true sense of loyalty and belonging. We would be delighted to have you join us. Happy gaming! 🌟`;
+  const inviteMessage = `Hello Honey! We would love to have you join our club [b]Butterfly Wings[/b]. [img]https://i.ibb.co/dJLKNXn1/Hello-dear-We-d-be-happy-to-welcome-you-to-our-club-You-are-active-strong-and-would-be-a-wonde.jpg[/img]`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];

@@ -6,8 +6,8 @@ module.exports = async function runStatsExtractor(page) {
   console.log("🚀 Starting Phase 1: Lady ID Extraction (No Club)");
 
   const startPage = 1;
-  const endPage = 1;
-  const tierId = 1;
+  const endPage = 2;
+  const tierId = 10;
   let allLadies = [];
 
   // Ensure logged-in session

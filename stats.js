@@ -109,7 +109,7 @@ module.exports = async function runStatsExtractor(page) {
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
   // EDIT THE MESSAGE HERE
-  const inviteMessage = `Hello lovely! I wanted to see if you might consider joining our club. We activate Tireless Talent every week, and a Vice President post is available as well. Sorry if you’re receiving this invitation again after declining, please feel free to ignore it. Happy New Year! ✨`;
+  const inviteMessage = `Hi lovely! I’d really love to invite you to join our club. We’re a calm, relaxed group and don’t expect high levels of activity or constant participation. We value independence and how much you take part in club activities is completely up to you. There’s no pressure to join club fights or any other events unless you feel like it. I genuinely feel you’d be a great fit with us, and we’d be very happy to have you if you decide to join. 💖`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];

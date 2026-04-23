@@ -6,7 +6,7 @@ module.exports = async function runStatsExtractor(page) {
   console.log("🚀 Starting Phase 1: Profile ID Extraction (No Club)");
 
   const startPage = 1; //change
-  const endPage = 294; //change
+  const endPage = 169; //change
   const tierId = 10; //change
   let allProfiles = [];
 
@@ -74,7 +74,7 @@ module.exports = async function runStatsExtractor(page) {
 
   console.log(`🚀 Starting Phase 3: Sending invites to ${allLadies.length} ladies`);
 
-  const inviteMessage = `Hi beauty! We’d be happy to have you in our club. Donations are entirely optional, we have great trophies, and we’re currently in a club fight and your support would mean a lot. Hope to see you join us soon! ✨`;
+  const inviteMessage = `We’d love to invite you to join Butterfly Wings 🦋 Our club has a strong trophy setup that can help improve your skills. We’re looking for strong ladies who want to grow and increase their skills with us. Donations are completely optional but help the club benefit all members. We also do weekly club fights and activate Tireless Talent every week. If you want an active, supportive club, join Butterfly Wings 🦋(Apply even if its full)`;
 
   for (let i = 0; i < allLadies.length; i++) {
     const lady = allLadies[i];
